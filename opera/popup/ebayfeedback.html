@@ -1,0 +1,34 @@
+<!-- The HTML file for the popup -->
+
+<!-- Tells browser to expect HTML -->
+<!DOCTYPE html>
+
+<html>
+<!-- Set metadata -->
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="ebayfeedback.css"/>
+  </head>
+
+<!-- 
+Place text box, description, and button
+Max length of text is 80 characters, in compliance with eBay rules
+-->
+<body>
+  <div class="panel">
+
+	<div id="comment0">
+	    <textarea autofocus required id="comment00" name="text" rows="2" maxlength="80" placeholder="Enter feedback here..."></textarea>
+		<div style="font-size:x-small;font-family:verdana;color:#666">
+			<p>80 character(s) maximum</p>
+		</div>
+	</div>
+	
+	<button id="leave-feedback" type="button">Leave all positive feedback</button>
+	
+  </div>
+  
+  <!-- Client-side script -->
+  <script src="ebayfeedback.js"></script>
+</body>
+</html>

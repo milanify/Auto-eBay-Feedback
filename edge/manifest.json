@@ -1,0 +1,38 @@
+{
+    "name": "Auto eBay Feedback",
+    "description": "Automatically leaves eBay feedback for all transactions",
+    "homepage_url": "https://github.com/milan102/Auto-eBay-Feedback",
+    "version": "1.0",
+    "manifest_version": 2,
+    "author": "Milan Mishra",
+    "browser_action": {
+        "default_title": "Auto eBay Feedback",
+        "default_popup": "popup/ebayfeedback.html",
+        "default_icon": {
+            "30": "icons/ebay-32.png"
+        }
+    },
+    "icons": {
+        "48": "icons/ebay-48.png"
+    },
+    "permissions": [
+        "*://*.ebay.com/*",
+        "tabs",
+        "storage"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://feedback.ebay.com/ws/eBayISAPI.dll?LeaveFeedback2&show_as=all",
+                "*://feedback.ebay.com/ws/eBayISAPI.dll"
+            ],
+            "js": [
+                "content_scripts/leavefeedback.js"
+            ]
+        }
+    ],
+    "-ms-preload": {
+        "backgroundScript": "backgroundScriptsAPIBridge.js",
+        "contentScript": "contentScriptsAPIBridge.js"
+    }
+}

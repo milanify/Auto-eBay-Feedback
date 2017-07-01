@@ -1,0 +1,26 @@
+/*The CSS file for the popup */
+
+/* Set width of popup */
+html, body {
+  min-width: 450px;
+}
+
+/* Set description right below text box */
+p {
+  margin: 0px 10px 10px 10px;
+}
+
+/* Set text box above description and stabilize width */
+textarea  {
+  margin: 10px 10px 0px 10px;
+  resize: none;
+  width: 95%;
+}
+
+/* Place button in center */
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
