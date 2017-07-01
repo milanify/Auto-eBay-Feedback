@@ -2,7 +2,7 @@
   "name": "Auto eBay Feedback",
   "description": "Automatically leaves eBay feedback for all transactions",
   "homepage_url": "https://github.com/milan102/Auto-eBay-Feedback",
-  "version": "1.0",
+  "version": "1.0.1",
   "manifest_version": 2,
   
   "browser_action": {
