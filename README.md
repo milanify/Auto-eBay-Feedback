@@ -1,6 +1,6 @@
 # Auto-eBay-Feedback
 
-Automatically leaves feedback for all your eBay transactions
+Browser extension that automatically leaves feedback for all your eBay transactions
 
 ## Availability:
 Firefox Store: (pending)
