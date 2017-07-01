@@ -11,6 +11,7 @@ Opera Store: (pending)
 
 Windows Store: (pending)
 
+...or you can download the source code, the corresponding folder for your browser and manually add the extension
 
 ## Screenshot:
 
