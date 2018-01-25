@@ -13,7 +13,7 @@ Windows Store: (pending)
 
 ...or you can download the source code - the corresponding folder for your browser, and manually add the extension
 
-## Screenshot
+## Preview
 
 ![alt tag](https://github.com/milan102/Auto-eBay-Feedback/blob/master/preview/feedbackdemo.gif)
 
