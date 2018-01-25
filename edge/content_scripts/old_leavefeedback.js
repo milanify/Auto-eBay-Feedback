@@ -1,5 +1,5 @@
 /*
- * The JavaScript file for the content script
+ * The JavaScript file for the older eBay layout (mid 2017 and before)
  * Runs only when on one of two pages:
  * 1) The list of feedbacks (max 25 feedbacks per page - eBay restriction)
  * 2) The page that shows up after feedback is left

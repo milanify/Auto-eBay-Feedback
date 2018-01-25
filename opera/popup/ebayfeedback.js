@@ -21,12 +21,12 @@ document.addEventListener("change", function(e) {
 
 	storeString(e.target.value);
 
-	/* After storing, listen for a button click event */
+	  /* After storing, listen for a button click event */
     document.addEventListener("click", function(e) {
 
 		/* If the button is clicked, open a new tab containing feedback list for all transactions */
 		if (e.target.id === "leave-feedback") {
-			chrome.tabs.create({url: "http://feedback.ebay.com/ws/eBayISAPI.dll?LeaveFeedback2&show_as=all"});
+			chrome.tabs.create({url: "https://www.ebay.com/fdbk/leave_feedback"});
 		}
 	});
  }
