@@ -53,10 +53,14 @@ function leaveFeedback(contents) {
 	  leaveFeedbackButtons[i].dispatchEvent(event);
   }
 
-  /* If there was feedback left, reload the page for other possible transactions */
-  if (positiveRadioButtons.length != 0) {
-    window.location.assign("https://www.ebay.com/fdbk/leave_feedback");
-  }
+  /** If there was feedback left, reload the page for other possible transactions
+   * Wait 3 seconds before executing page-reload, allows for feedback buttons to be pressed
+   */
+  setTimeout(function() {
+    if (positiveRadioButtons.length != 0) {
+      window.location.assign("https://www.ebay.com/fdbk/leave_feedback");
+    }
+  }, 3000);
 }
 
 /**
