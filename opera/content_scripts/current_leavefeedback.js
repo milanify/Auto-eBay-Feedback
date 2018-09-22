@@ -49,7 +49,7 @@ function leaveFeedback(contents) {
   event.initEvent('mouseup', true, false);
 
   for (i = 0; i < leaveFeedbackButtons.length; i++) {
-	  leaveFeedbackButtons[i].dispatchEvent(event);
+	  leaveFeedbackButtons[i].click();
   }
 
   /** If there was feedback left, reload the page for other possible transactions
